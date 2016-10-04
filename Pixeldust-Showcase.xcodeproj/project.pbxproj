@@ -54,6 +54,9 @@
 		A9E8A8C41DA40CB300D267B7 /* Pixeldust-Showcase */ = {
 			isa = PBXGroup;
 			children = (
+				A9E8A8D91DA417A500D267B7 /* Model */,
+				A9E8A8D81DA4176500D267B7 /* View */,
+				A9E8A8D71DA4170800D267B7 /* Controller */,
 				A9E8A8C51DA40CB400D267B7 /* AppDelegate.swift */,
 				A9E8A8C71DA40CB400D267B7 /* ViewController.swift */,
 				A9E8A8C91DA40CB400D267B7 /* Main.storyboard */,
@@ -62,6 +65,30 @@
 				A9E8A8D11DA40CB400D267B7 /* Info.plist */,
 			);
 			path = "Pixeldust-Showcase";
+			sourceTree = "<group>";
+		};
+		A9E8A8D71DA4170800D267B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A9E8A8D81DA4176500D267B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A9E8A8D91DA417A500D267B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
