@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		A978A6B01DA48DCF007E8C13 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978A6AF1DA48DCF007E8C13 /* MaterialButton.swift */; };
 		A978A6B21DA4ADE1007E8C13 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978A6B11DA4ADE1007E8C13 /* MaterialTextField.swift */; };
+		A9D1464D1DA57F95009491C9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D1464A1DA57F95009491C9 /* Bolts.framework */; };
+		A9D1464E1DA57F95009491C9 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D1464B1DA57F95009491C9 /* FBSDKCoreKit.framework */; };
+		A9D1464F1DA57F95009491C9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D1464C1DA57F95009491C9 /* FBSDKLoginKit.framework */; };
 		A9E8A8C61DA40CB400D267B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8A8C51DA40CB400D267B7 /* AppDelegate.swift */; };
 		A9E8A8C81DA40CB400D267B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8A8C71DA40CB400D267B7 /* ViewController.swift */; };
 		A9E8A8CB1DA40CB400D267B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E8A8C91DA40CB400D267B7 /* Main.storyboard */; };
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		A978A6AF1DA48DCF007E8C13 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		A978A6B11DA4ADE1007E8C13 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		A9D1464A1DA57F95009491C9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A9D1464B1DA57F95009491C9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A9D1464C1DA57F95009491C9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		A9E8A8C21DA40CB300D267B7 /* Pixeldust-Showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixeldust-Showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E8A8C51DA40CB400D267B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9E8A8C71DA40CB400D267B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,12 +51,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D1464D1DA57F95009491C9 /* Bolts.framework in Frameworks */,
+				A9D1464E1DA57F95009491C9 /* FBSDKCoreKit.framework in Frameworks */,
+				A9D1464F1DA57F95009491C9 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9D146491DA57F6C009491C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D1464A1DA57F95009491C9 /* Bolts.framework */,
+				A9D1464B1DA57F95009491C9 /* FBSDKCoreKit.framework */,
+				A9D1464C1DA57F95009491C9 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A9E8A8B91DA40CB300D267B7 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +89,7 @@
 		A9E8A8C41DA40CB300D267B7 /* Pixeldust-Showcase */ = {
 			isa = PBXGroup;
 			children = (
+				A9D146491DA57F6C009491C9 /* Frameworks */,
 				A9E8A8E51DA47CBE00D267B7 /* Util */,
 				A9E8A8DA1DA4184600D267B7 /* Resources */,
 				A9E8A8D91DA417A500D267B7 /* Model */,
@@ -337,6 +357,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9UR288L6T6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pixeldust-Showcase",
+				);
 				INFOPLIST_FILE = "Pixeldust-Showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.asherleelevy.Pixeldust-Showcase";
@@ -350,6 +374,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9UR288L6T6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pixeldust-Showcase",
+				);
 				INFOPLIST_FILE = "Pixeldust-Showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.asherleelevy.Pixeldust-Showcase";
