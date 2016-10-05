@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A978A6B01DA48DCF007E8C13 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978A6AF1DA48DCF007E8C13 /* MaterialButton.swift */; };
+		A978A6B21DA4ADE1007E8C13 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978A6B11DA4ADE1007E8C13 /* MaterialTextField.swift */; };
 		A9E8A8C61DA40CB400D267B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8A8C51DA40CB400D267B7 /* AppDelegate.swift */; };
 		A9E8A8C81DA40CB400D267B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8A8C71DA40CB400D267B7 /* ViewController.swift */; };
 		A9E8A8CB1DA40CB400D267B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E8A8C91DA40CB400D267B7 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A978A6AF1DA48DCF007E8C13 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		A978A6B11DA4ADE1007E8C13 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 		A9E8A8C21DA40CB300D267B7 /* Pixeldust-Showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixeldust-Showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E8A8C51DA40CB400D267B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9E8A8C71DA40CB400D267B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				A9E8A8E31DA47C1700D267B7 /* MaterialView.swift */,
+				A978A6AF1DA48DCF007E8C13 /* MaterialButton.swift */,
+				A978A6B11DA4ADE1007E8C13 /* MaterialTextField.swift */,
 			);
 			name = View;
 			path = ..;
@@ -202,10 +208,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A978A6B21DA4ADE1007E8C13 /* MaterialTextField.swift in Sources */,
 				A9E8A8E41DA47C1700D267B7 /* MaterialView.swift in Sources */,
 				A9E8A8C81DA40CB400D267B7 /* ViewController.swift in Sources */,
 				A9E8A8C61DA40CB400D267B7 /* AppDelegate.swift in Sources */,
 				A9E8A8E71DA47D5400D267B7 /* Constants.swift in Sources */,
+				A978A6B01DA48DCF007E8C13 /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +377,7 @@
 				A9E8A8D61DA40CB400D267B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
