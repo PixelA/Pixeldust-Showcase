@@ -91,7 +91,6 @@
 		A9E8A8C41DA40CB300D267B7 /* Pixeldust-Showcase */ = {
 			isa = PBXGroup;
 			children = (
-				A9DC3EF11DA5CCF9000765C4 /* GoogleService-Info.plist */,
 				A9D146491DA57F6C009491C9 /* Frameworks */,
 				A9E8A8E51DA47CBE00D267B7 /* Util */,
 				A9E8A8DA1DA4184600D267B7 /* Resources */,
@@ -103,6 +102,7 @@
 				A9E8A8C91DA40CB400D267B7 /* Main.storyboard */,
 				A9E8A8CC1DA40CB400D267B7 /* Assets.xcassets */,
 				A9E8A8CE1DA40CB400D267B7 /* LaunchScreen.storyboard */,
+				A9DC3EF11DA5CCF9000765C4 /* GoogleService-Info.plist */,
 				A9E8A8D11DA40CB400D267B7 /* Info.plist */,
 			);
 			path = "Pixeldust-Showcase";
